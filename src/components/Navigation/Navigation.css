@@ -1,0 +1,69 @@
+.navigation-wrapper {
+    background-color: royalblue;
+    box-shadow: 0px 3px 5px rgba(95, 95, 95, 0.541);
+
+    min-height: 50px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 0 5%;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.navigation-btn-objavi {
+    font-size: 1em;
+    font-weight: 600;
+
+    padding: 7px 15px;
+    margin: 0 5px;
+
+    border-radius: 5px;
+    border:1px solid rgba(128, 128, 128, 0.442);
+    outline: none;
+    
+    color:rgb(242, 240, 240);
+    background-color:#e74c3c;
+}
+
+.navigation-btn-objavi:hover {
+    background-color: #c0392b;
+}
+
+.navigation-btn-objavi:active {
+    background-color: #8b291e;
+}
+
+.navigation-btn-prijava {
+    font-size: 1em;
+    font-weight: 600;
+
+    padding: 7px 15px;
+    margin: 0 5px;
+
+    border-radius: 5px;
+    border:1px solid rgba(128, 128, 128, 0.442);
+    outline: none;
+    
+    color:rgb(239, 237, 237);
+    background-color: #2ecc71;
+}
+
+.navigation-btn-prijava:hover {
+    background-color: #27ae60;
+}
+
+.navigation-btn-prijava:active {
+    background-color: #19713e;
+}
+
+@media (max-width: 800px) {
+    /* your styles go here */
+  }
