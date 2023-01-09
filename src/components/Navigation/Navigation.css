@@ -1,5 +1,5 @@
 .navigation-wrapper {
-    background-color: royalblue;
+    background-color: rgb(39, 68, 154);
     box-shadow: 0px 3px 5px rgba(95, 95, 95, 0.541);
 
     min-height: 50px;
@@ -62,6 +62,64 @@
 
 .navigation-btn-prijava:active {
     background-color: #19713e;
+}
+
+
+/* STYLING INPUT FIELDS*/
+.navigation-search-and-btn {
+    /*background-color:#19713e; */
+    width: 0px;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transition: 0.55s linear;
+}
+
+.active-search {
+    width: 600px;
+}
+
+.search-and-btn-item1 {
+    flex:4;
+    height: 32.5px;
+    padding: 2px 10px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border:0px;
+    font-size: 1.2em;
+    color:rgba(39, 37, 37, 0.644);
+}
+
+.search-and-btn-item2 {
+    flex:1;
+    font-size: 1em;
+    font-weight: 600;
+
+    padding: 7px 15px;
+    margin: 0 5px 0 0;
+
+    border-radius: 0 5px 5px 0;
+    border:0px solid rgba(128, 128, 128, 0.442);
+    outline: none;
+    
+    color:rgb(239, 237, 237);
+    background-color: #8e44ad;
+}
+
+.search-and-btn-item2:hover {
+    background-color: #74348f;
+}
+
+.search-and-btn-item2:active {
+    background-color: #6e298c;
+}
+
+.link {
+    color:white;
+    text-decoration: none;
+    font-size: 1.3em;
 }
 
 @media (max-width: 800px) {
