@@ -1,0 +1,32 @@
+.makeprofile-wrapper {
+    background-color: coral;
+    height: 90vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeprofile-passive-side {
+    background-color: #209FC0;
+    background-image: url('../../assets/kupovina.jpg');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 100%;
+}
+
+
+.makeprofile-active-side {
+    width: 70%;
+    height: 100%;
+    background-color:white;
+    padding: 1% 2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

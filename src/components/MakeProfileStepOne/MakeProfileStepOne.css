@@ -1,0 +1,228 @@
+.paketi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.makeprofileicons1 {
+    font-size: 60px;
+    color: gray;
+}
+.biznis-paket:hover >.makeprofileicons1 {
+    color: cornflowerblue;
+}
+.biznis-paket {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(81, 81, 81, 0.1);
+
+    box-shadow: 0px 0px 6px rgba(100, 148, 237, 0.3);
+
+    color:rgb(87, 86, 86);
+    border-radius: 10px;
+    border: 2px solid rgb(96, 96, 96, 0.3);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.biznis-paket:hover {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(100, 148, 237, 0.15);
+
+    box-shadow: 0px 0px 6px rgba(100, 148, 237, 0.3);
+
+    color:rgb(72, 107, 173);
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+}
+.aktivna-ikona {
+    color: cornflowerblue;
+}
+
+.aktivni-paket {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(100, 148, 237, 0.15);
+
+    box-shadow: 0px 0px 6px rgba(100, 148, 237, 0.3);
+
+    color:rgb(72, 107, 173);
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* PRIVATNI*/
+.makeprofileicons2 {
+    font-size: 60px;
+    color: gray;
+}
+.privatni-paket:hover >.makeprofileicons2 {
+    color: cornflowerblue;
+}
+.privatni-paket {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(81, 81, 81, 0.1);
+
+    box-shadow: 0px 0px 6px rgba(100, 148, 237, 0.3);
+
+    color:rgb(87, 86, 86);
+    border-radius: 10px;
+    border: 2px solid rgb(96, 96, 96, 0.3);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.privatni-paket:hover {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(100, 148, 237, 0.15);
+
+    box-shadow: 0px 0px 6px rgba(100, 148, 237, 0.3);
+
+    color:rgb(72, 107, 173);
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.makeprofile-heading {
+    font-size: 2.5em;
+    color:rgb(86, 85, 85, 0.8)
+}
+
+.makeporifle-subheading {
+    font-size: 1.3em;
+    font-weight: 100;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color:rgba(33, 33, 33, 0.473);
+}
+
+.makeprofile-next {
+    width: 35%;
+    padding: 15px 5px;
+    border-radius: 5px;
+    outline: none;
+    border:0px;
+    box-shadow: 0px 0px 5px rgba(105, 94, 94, 0.35);
+    font-size: 1.5em;
+    color:white;
+    background-color: royalblue;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.makeprofile-next:hover {
+    background-color: rgb(54, 89, 194);
+}
+
+.makeprofile-next:active {
+    background-color: rgb(39, 72, 170);
+}
+
+.steps {
+    width: 60%;
+    height: 150px;
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+}
+
+.vrsta-profila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.vrsta-profila h1 {
+    background-color: royalblue;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    margin-bottom: 10px;
+}
+
+.vrsta-profila p {
+    font-weight: 700;
+    color:rgb(87, 87, 87)
+}
+
+
+.osnovni-podaci {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.osnovni-podaci h1 {
+    /*background-color: royalblue; */
+    background-color: gray;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    margin-bottom: 10px;
+
+}
+
+.osnovni-podaci p {
+    font-weight: 700;
+    color:rgb(87, 87, 87)
+}
+
+.linija {
+    background-color: rgb(50, 50, 50, 0.55);
+    height: 2.5px;
+    width: 29%;
+    position: absolute;
+    top:37.5%;
+    left:34.2%;
+}
+
+.disabled {
+    background-color: gray!important;
+    cursor: not-allowed;
+    pointer-events: all !important;
+}

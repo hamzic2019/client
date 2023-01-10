@@ -4,33 +4,15 @@ import {useNavigate, Link} from 'react-router-dom';
 
 const Navigation = (data) => {
   const navigate = useNavigate();
-  
-  const datas = [
-    {
-        title: 'Haris je kupio'
-    },{
-        title: 'amina nije jela'
-    },{
-        title: 'trebaju se palacinci napraviti'
-    },
-  ]
 
   const [activeSearch, setActiveSearch] = useState(false)
   const [input, setInput] = useState('');
   
   const handelAsk = () => {
-    navigate('/search');
+    navigate('/trazi');
     setActiveSearch(true);
   }
 
-  useEffect(() => {
-    /*const result = datas.filter(item => {
-        return item.title.toLowerCase().includes(input.toLocaleLowerCase());
-    })
-    console.log(result); REAL TIME DATA SEARCH*/
-
-
-  }, [input])
 
   return (
     <div className='navigation-wrapper'>
@@ -50,8 +32,8 @@ const Navigation = (data) => {
         </div>
 
         <div className="navigation-btns itms">
-            <button className='navigation-btn-objavi'>OBJAVI OGLAS</button>
-            <button className='navigation-btn-prijava'>PRIJAVA</button>
+            <Link to="/objavi" className='navigation-btn-objavi'>OBJAVI OGLAS</Link>
+            <Link to="/prijava" className='navigation-btn-prijava'>PRIJAVA</Link>
         </div>
 
     </div>
